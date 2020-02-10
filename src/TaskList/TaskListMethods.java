@@ -129,7 +129,7 @@ public class TaskListMethods {
 		String response = "";
 
 		displayTasks(tasks);
-		System.out.println("Which person would you like to see tasks for?");
+		System.out.println("Who would you like to see tasks for? (Person's name)");
 		response = scnr.nextLine();
 
 		for (Task task : tasks) {
